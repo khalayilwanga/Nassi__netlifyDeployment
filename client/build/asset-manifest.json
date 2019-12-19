@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a0f7872.chunk.css",
+    "main.js": "/static/js/main.6f0465a8.chunk.js",
+    "main.js.map": "/static/js/main.6f0465a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5767bf5b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5767bf5b.js.map",
+    "static/js/2.3e52bf58.chunk.js": "/static/js/2.3e52bf58.chunk.js",
+    "static/js/2.3e52bf58.chunk.js.map": "/static/js/2.3e52bf58.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.822d2096fa1b564de19d51dec7e7d81f.js": "/precache-manifest.822d2096fa1b564de19d51dec7e7d81f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4a0f7872.chunk.css.map": "/static/css/main.4a0f7872.chunk.css.map",
+    "static/js/2.3e52bf58.chunk.js.LICENSE": "/static/js/2.3e52bf58.chunk.js.LICENSE",
+    "static/media/naasilogo.png": "/static/media/naasilogo.06363609.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5767bf5b.js",
+    "static/js/2.3e52bf58.chunk.js",
+    "static/css/main.4a0f7872.chunk.css",
+    "static/js/main.6f0465a8.chunk.js"
+  ]
+}
