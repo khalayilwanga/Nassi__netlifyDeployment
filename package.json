@@ -2,6 +2,7 @@
   "name": "nassiserver",
   "version": "0.1.0",
   "private": true,
+  "main": "functions/emailSender.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -22,8 +23,8 @@
     "scss": "node-sass --watch src/styles/scss -o src/styles/css",
     "both": "concurrently \" cd client && npm run start\" \" cd server && nodemon emailSender.js\"",
     "server": "cd server && node emailSender.js",
-    "start": "./node_modules/.bin/netlify-lambda serve server",
-    "build": "./node_modules/.bin/netlify-lambda build server"
+    "start": "netlify-lambda serve server",
+    "build": "netlify-lambda build server"
   },
   "browserslist": {
     "production": [
