@@ -61,7 +61,7 @@ router.get("*", (req, res) => {
 });
 app.use(router);
 
-app.use("/.netlify/functions/emailSender", router);
+app.use(".netlify/functions/emailSender", router);
 
 const port = process.env.PORT || 5000;
 app.listen(port);
