@@ -66,6 +66,8 @@ app.use(".netlify/functions/emailSender", router);
 const port = process.env.PORT || 5000;
 app.listen(port);
 
+module.exports.appInstance = app;
+
 module.exports.handler = serverless(app);
 
 console.log(`App is listening on port  ${port}`);
