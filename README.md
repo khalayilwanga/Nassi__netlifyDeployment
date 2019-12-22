@@ -13,7 +13,7 @@ The functions are already generated and found in the `functions` folder but to r
 
 To serve the lambda functions locally run `npm run start`. They will run on the url
 
-> https://localhost:9000/.netlify/functions/<name-of-function>
+> https://localhost:9000/.netlify/functions/\<name-of-function\>
 
 ---
 
